@@ -1,0 +1,214 @@
+/* Import Inria Serif Font */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+
+/* Root CSS Variables for Easy Customization */
+:root {
+    --font-family: 'Inria Serif', serif;
+    --background-color: #f8f9fa;
+    --container-bg-color: #fff;
+    --container-padding: 20px 30px;
+    --container-border-radius: 10px;
+    --container-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --text-color-main: black;
+    --text-color-secondary: black;
+    --heading-color: black;
+    --button-bg-color: #007bff;
+    --button-hover-bg-color: #0056b3;
+    --input-border-color: #ccc;
+    --link-color: #007bff; /* Link color for Terms Of Use */
+    --link-hover-color: #0056b3;
+}
+
+/* Base Styling */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: var(--container-bg-color);
+    padding: var(--container-padding);
+    border-radius: var(--container-border-radius);
+    box-shadow: var(--container-shadow);
+    width: 700px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 23px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: black;
+}
+
+/* Paragraphs */
+p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color-main);
+    margin-left: 60px;
+}
+
+input, select, button {
+    font-family: var(--font-family);
+    width: 584px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 60px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+    padding: 20;
+}
+
+/* Buttons */
+button[type="submit"] {
+    background-color: var(--button-bg-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+button[type="button"] {
+    width: auto;
+    padding: 8px 12px;
+    margin-left: 60px;
+    background-color: var(--button-bg-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+/* Form Layout */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Reduced gap to bring Last Name closer to First Name */
+}
+
+/* First Name Input: Adjust width here */
+#first-name {
+    width: 250px; /* Set the width of the First Name input independently */
+    border-radius: 2px;
+}
+
+/* Last Name Input: Adjust width here */
+#last-name {
+    width: 250px; /* Set the width of the Last Name input independently */
+    margin-right: 56px;
+    border-radius: 2px;
+}
+
+/* City Input: Adjust width here */
+#city {
+    width: 250px; /* Set the width of the City input independently */
+    margin-left: 60px;
+    border-radius: 2px;
+}
+
+#postal-code {
+    width: 250px; /* Set the width of the Last Name input independently */
+    margin-right: 56px;
+    border-radius: 2px;
+}
+
+#experience-1 {
+    position: relative;
+    top: 21px; /* Adjust this value to lower the button */
+    margin-left: -240px;
+}
+
+#experience-2 {
+    position: relative;
+    top: 20px; /* Adjust this value to lower the button */
+    margin-left: -240px;
+}
+
+#experience-3 {
+    position: relative;
+    top: 20px; /* Adjust this value to lower the button */
+    margin-left: -240px;
+}
+
+#experience-4 {
+    position: relative;
+    top: 20px; /* Adjust this value to lower the button */
+    margin-left: -240px;
+}
+
+.label1 {
+    margin-left: 65px;
+}
+
+.label2 {
+    margin-left: 65px;
+}
+
+.label3 {
+    margin-left: 65px;
+}
+
+.label4 {
+    margin-left: 65px;
+}
+
+.firstName {
+margin-left: 60px;
+}
+
+.secondName {
+    margin-left: 60px;
+    }
+/* Postal Code Input: Adjust width here */
+
+#terms-of-use {
+    position: relative;
+    top: 19px; /* Adjust this value to lower the button */
+    margin-left: -70px;
+}
