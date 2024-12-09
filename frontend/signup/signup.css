@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    /* Edit background color */
+}
+
+.container {
+    background-color: #fff;
+    /* Edit container background color */
+    padding: 40px;
+    /* Edit container padding */
+    border-radius: 10px;
+    /* Edit container border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Edit container box shadow */
+    width: 400px;
+    /* Edit container width */
+    text-align: center;
+    /* Edit container text alignment */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    size: 40px;
+    color: #000000;
+    /* Edit header margin */
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Edit radio group margin */
+}
+
+.radio-group label {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    margin-top: 20px;
+    /* Edit radio label margin */
+    font-size: 30px;
+    /* Edit radio label font size */
+}
+
+.radio-group input {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    accent-color: #205FE5;
+    /* Modern browsers support this */
+}
+
+.radio-group input:checked {
+    background-color: #205FE5;
+    /* Visual change when checked */
+    border-color: #205FE5;
+    /* Optional outline */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Edit form group margin */
+}
+
+.form-group input {
+    width: 100%;
+    /* Edit input width */
+    padding: 10px;
+    /* Edit input padding */
+    border: 1px solid #ccc;
+    /* Edit input border */
+    border-radius: 5px;
+    /* Edit input border radius */
+    font-size: 16px;
+    /* Edit input font size */
+}
+
+.btn {
+    background-color: #205FE5;
+    /* Edit button background color */
+    color: #fff;
+    /* Edit button text color */
+    padding: 10px 20px;
+    /* Edit button padding */
+    border: none;
+    /* Edit button border */
+    border-radius: 5px;
+    /* Edit button border radius */
+    font-size: 18px;
+    /* Edit button font size */
+    cursor: pointer;
+    /* Edit button cursor */
+    width: 100%;
+    /* Edit button width */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Edit button hover background color */
+}
+
+.login-link {
+    margin-top: 20px;
+    /* Edit login link margin */
+    display: block;
+    /* Edit login link display */
+    font-size: 14px;
+    /* Edit login link font size */
+}
+
+.login-link a {
+    color: #007bff;
+    /* Edit login link color */
+    text-decoration: none;
+    /* Edit login link text decoration */
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+    /* Edit login link hover text decoration */
+}

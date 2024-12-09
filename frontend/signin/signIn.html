@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7fbfc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+           /* width: 1000px;
+            height: 1000px;*/
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            margin-bottom: 100px;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        /* Styling the email field */
+        .email-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        /* Styling the password field */
+        .password-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .forgot-password {
+            display: block;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: #0056b3;
+        }
+        .register-link {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .register-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome Back!</h1>
+        <form>
+            <!-- Separate classes for email and password fields -->
+            <input type="email" class="email-field" placeholder="Email" required>
+            <input type="password" class="password-field" placeholder="Password" required>
+            <a href="#" class="forgot-password">Forgot Password</a>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <a href="/Users/user-pc/OneDrive/Desktop/onlinetutor/signup/signup.html" class="register-link">Don’t have an account? Register</a>
+    </div>

@@ -1,0 +1,130 @@
+/* General Reset */
+
+.footer-column1 h3 {
+    margin-left: 45px;
+    font-family: 'Arial', sans-serif;
+    background-color: #1A202C;
+    /* Dark navy blue */
+    color: #FFFFFF;
+    /* White text */
+}
+
+.footer-column2 h3 {
+    margin-left: -83px;
+    font-family: 'Arial', sans-serif;
+    background-color: #1A202C;
+    /* Dark navy blue */
+    color: #FFFFFF;
+    /* White text */
+}
+
+.footer-column3 h3 {
+    margin-left: -300px;
+    font-family: 'Arial', sans-serif;
+    background-color: #1A202C;
+    /* Dark navy blue */
+    color: #FFFFFF;
+    font-size: 18px;
+    /* White text */
+}
+
+.social-icons {
+    margin-left: -230px;
+}
+
+.footer-column1 ul {
+    margin-left: 160px;
+    font-family: 'Arial', sans-serif;
+    background-color: #1A202C;
+    /* Dark navy blue */
+    color: #FFFFFF;
+    /* White text */
+}
+
+.footer {
+    padding: 30px;
+    background-color: #1A202C;
+    /* Matching the dark blue */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+/* Column Styling */
+
+.info,
+.contact,
+.follow-us {
+    flex: 1;
+    padding: 0 170px;
+}
+
+.info h3,
+.contact h3,
+.follow-us h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #8C8C8C;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+/* Icons and Colors */
+
+.icon {
+    margin-right: 5px;
+    color: #4B9CD3;
+    font-size: 16px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* Footer Bottom */
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #8C8C8C;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+    color: #A0A0A0;
+    /* Grey text */
+}
+
+.footer-column1 .h3 {
+    margin-left: 450px;
+}
+
+.contact1 li {
+    color: #FFFFFF;
+}
+
+.info1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

@@ -1,0 +1,143 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-us {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #1e88e5;
+    /* Matching the blue from the image */
+}
+
+
+/* Info Boxes */
+
+.info-box {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid #1e88e5;
+    /* Blue border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    gap: 15px;
+}
+
+.info-box .icon {
+    flex: 0 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box .icon img {
+    width: 237px;
+    height: 237px;
+}
+
+.info-box .icon1 img {
+    width: 203px;
+    height: 203px;
+    margin-left: 250%;
+}
+
+.info-box .icon2 img {
+    width: 237px;
+    height: 237px;
+}
+
+.info-box .icon3 img {
+    width: 155px;
+    height: 155px;
+    margin-left: 350%;
+}
+
+.info-box .content {
+    flex: 1;
+    text-align: left;
+}
+
+.info-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-box p,
+.info-box ul {
+    font-size: 14px;
+    color: #555;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.info-box ul li {
+    margin-bottom: 10px;
+}
+
+.info-box p strong,
+.info-box ul li strong {
+    color: #333;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+    .info-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info-box .icon {
+        margin-bottom: 10px;
+    }
+    .info-box .content {
+        text-align: center;
+    }
+}
+
+.icon {
+    width: 237px;
+    height: 237px;
+}
+
+.info-box .content1 p {
+    margin-left: -220px;
+}
+
+.info-box .content1 h2 {
+    margin-left: -220px;
+}
+
+.info-box .content2 p {
+    margin-left: -150px;
+}
+
+.info-box .content2 h2 {
+    margin-left: -150px;
+}
